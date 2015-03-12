@@ -19,15 +19,16 @@ var startingGallons      //number variable
 var milesDriven          //number variable
 var vehicleType          //sting variable
 var isThereGasLeftOver   //boolean variable
-var array                //array variable for console output consolidation
+var listedOUt = array()  //array variable for console output consolidation
 var fillUp               //numerical variable for filling up tank in gallons
 var MPG                  //variable for miles per gallon
+var isThereGasLeftOver   //declaration of Boolean variable
+var G                    //declare variable for gallons used
 
 //2 examples of arithmetic operators + and -, /, *
 //example of an array used as part of the calculation
 //string variable as output
 //2 assignment operators
-
 
 
 //TODO: prompts
@@ -41,56 +42,60 @@ milesDriven = prompt ("How many miles have you driven so far")       //prompt fo
 
 fillUp = prompt ("How many gallons did it take to fill your tank?"); //prompt for number of gallons it took to fill tank
 
+
 // re-var, meaning my vars to shorter vars for calculations
 
-var V = vehicleType;       //Vehicle type is now V
+var V = vehicleType;        //Vehicle type is now V
 
-var SG = startingGallons; //Starting Gallons is now SG
+var SG = startingGallons;   //Starting Gallons is now SG
 
-var MD = milesDriven;    //Miles driven is now MD
-alert(MD);
-var FU = fillUp;         //fillUp is now FU
-alert(FU);
+var MD = milesDriven;       //Miles driven is now MD
+
+var FU = fillUp;            //fillUp is now FU
+
+isThereGasLeftOver = true;  //boolean value
 
 // Calculations for MPG
 
-var MPG = (SG - FU) / MD;
+var G = G = (SG - FU);      //Gallons used
+
+var MPG = MD / (SG - FU);   //MPG calculation
+
+//array data variable outputs
+var array = array("Vehicle type" + " " + V,
+    "Vehicle type" + " " + G,
+    "Miles driven" + " " + MD,
+    "Miles per gallon" + " " + MPG);  //super simplistic list array for console information
 
 
+//Your MPG is: (type of concatenation)
+alert("Your" + V + " " + "MPG" + " " + "is:" + " " + MPG);
 
-//Your MPG is:
-
-
-
-
-
-//Distance driven after fueling
-
-//Fuel left in tank of...Vehicle
-
-//You have this much fuel left in your tank
-
-//Mathematical part of the program
-
-
-
-isThereGasLeftOver = true; //boolean input from user
-
-//array with variables for console concatenated with...
-//casting
-//parenthesis for order of operations
-//concatenations
-//outputs
-
-//Concatenations
 
 //TODO: console logs //with descriptive sentences
-//put in results in multi-lined comment /* */
+
+console.log(vehicleType);                   //string value for vehicle type
+console.log(V);                             //assign sting to V for shorter reference
+console.log(startingGallons);               //string input for starting gallons
+console.log(SG);                            //assign string to SG for numerical value
+console.log(milesDriven);                   //string value for miles driven
+console.log(MD);                            //assign string to MD for numerical value
+console.log(fillUp);                        //string variable for initial fill up.
+console.log(FU);                            //assign fillUp to FU for numerical value
+console.log(isThereGasLeftOver);            //assign boolean value true to variable is ThereGasLeftOver
+console.log(G);                             //Gallons used variable
+console.log(MPG);                           //MPG variable for miles per gallon calculation
+console.log(array);                         //array for console list purposes
+console.log("End outputs, or display using alert" + " " +
+" vehicle type" + " + V +" + " " +
+"MPG" + " " + MPG);                         //output results put into console
+
+//put in results in multi-lined comment /*
+//
+// */
 
 //Save PDF flowchart as Birchard_Eric_Expressions_Flowchart.pdf in Expressions Assignment folder
 
 //make a zip file of Birchard_Eric_Expressions_Assignment.zip for backup on FSO
 
 //Make sure code is in the GitHub Repository
-
-
