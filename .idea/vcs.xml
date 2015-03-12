@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Birchard_Eirc_Expressions_Assignment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Expressions_worksheet" vcs="Git" />
   </component>
 </project>
