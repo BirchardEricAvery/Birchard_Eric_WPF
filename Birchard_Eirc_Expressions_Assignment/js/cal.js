@@ -15,8 +15,11 @@
 //TODO: declare variables
 
 var startingGallons      //number variable
+var milesDriven          //number variable
 var vehicleType          //sting variable
 var isThereGasLeftOver   //boolean variable
+var array                //array variable for console output consolidation
+
 //2 examples of arithmetic operators + and -, /, *
 //example of an array used as part of the calculation
 //string variable as output
@@ -26,10 +29,32 @@ var isThereGasLeftOver   //boolean variable
 
 //TODO: prompts
 //data types number, string, boolean, array
-startingGallons = prompt("Starting fuel in tank"); //number input from user
 
 vehicleType = prompt("What type of vehicle do you drive?"); //string input from user
+
+startingGallons = prompt("Starting fuel in tank"); //number input from user
+
+milesDriven = prompt ("How many miles have you driven so far")
+
+// Calculations for MPG
+
+
+
+//Your MPG is:
+
+//Display interim fueling to get fuel left in tank
+
+//Distance driven after fueling
+
+//Fuel left in tank of...Vehicle
+
+//You have
+//Mathematical part of the program
+
+
+
 isThereGasLeftOver = true; //boolean input from user
+
 //array with variables for console concatenated with...
 //casting
 //parenthesis for order of operations
