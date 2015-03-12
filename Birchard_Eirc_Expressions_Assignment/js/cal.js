@@ -57,7 +57,7 @@ isThereGasLeftOver = true;  //boolean value
 var G = G = (SG - FU);      //Gallons used
 
 
-MPG = MPG + (G/MD);   //MPG calculation
+var MPG = G / MD;   //MPG calculation
 
 
 //G = (SG - FU);          //Gallons used arithmetic operation 2
