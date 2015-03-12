@@ -10,15 +10,17 @@
 
 //Fuel mileage calculator and gas left in tank
 
-var startingGallons      //number variable
-var milesDriven          //number variable
-var vehicleType          //sting variable
-var isThereGasLeftOver   //boolean variable
-var fillUp               //numerical variable for filling up tank in gallons
-var MPG                  //variable for miles per gallon
-var isThereGasLeftOver   //declaration of Boolean variable
-var G                    //declare variable for gallons used
-
+var startingGallons;      //number variable
+var milesDriven;          //number variable
+var vehicleType;          //sting variable
+var isThereGasLeftOver;   //boolean variable
+var fillUp;               //numerical variable for filling up tank in gallons
+var mPG;                  //variable for miles per gallon
+var isThereGasLeftOver;   //declaration of Boolean variable
+var gU;                    //declare variable for gallons used
+var SG;                    //start gallons
+var MD;                     //miles driven
+var FU;                     //gallons to fuel up
 
 //2 examples of arithmetic operators + and -, /, *
 //example of an array used as part of the calculation
@@ -31,57 +33,47 @@ var G                    //declare variable for gallons used
 
 vehicleType = prompt("What type of vehicle do you drive?");          //prompt for string input from user
 
-startingGallons = prompt("Starting fuel in tank");                   //prompt for number input from user
+var startingGallons = prompt("Starting fuel in tank");                   //prompt for number input from user
 
-milesDriven = prompt ("How many miles have you driven so far")       //prompt for number input for miles driven
+var milesDriven = prompt ("How many miles have you driven so far");       //prompt for number input for miles driven
 
-fillUp = prompt ("How many gallons did it take to fill your tank?"); //prompt for number of gallons it took to fill tank
-
+var fillUp = prompt ("How many gallons did it take to fill your tank?"); //prompt for number of gallons it took to fill tank
 
 // re-var, meaning my vars to shorter vars for calculations
 
-var V = vehicleType;        //Vehicle type is now V
+V = vehicleType;        //Vehicle type is now V
 
-var SG = startingGallons;   //Starting Gallons is now SG
+sG = startingGallons;   //Starting Gallons is now SG
 
-var MD = milesDriven;       //Miles driven is now MD
+mD = milesDriven;       //Miles driven is now mD
 
-var FU = fillUp;            //fillUp is now FU
-
-isThereGasLeftOver = true;  //boolean value
+fU = fillUp;            //fillUp is now FU
 
 
+// Calculations for MPG and gallons used
 
-// Calculations for MPG
-
-var G = G = (SG - FU);      //Gallons used
-
-
-var MPG = G / MD;   //MPG calculation
+gU = sG - fU;      //Gallons used arithmetic operation 2
 
 
-//G = (SG - FU);          //Gallons used arithmetic operation 2
+mPG = mD/ fU;      //MPG calculation with parentheses prioritization arithmetic operation 2
 
-
-//var MPG = MD / (G);      //MPG calculation with parentheses prioritization arithmetic operation 2
 
 
 //Your MPG is: (type of concatenation)
 
-alert("Your" + V + " " + "MPG" + " " + "is:" + " " + MPG);
+alert("Your" + V + " " + "MPG" + " " + "is:" + " " + mPG + " " + "using" + " " + gU + " " + "Gallons");
+
+isThereGasLeftOver = true;  //boolean value
 
 //array data variable outputs
-array1 = array1[4];
-array1[0] = "Vehicle type:";
-array1[1] = "Gallons used:";
-array1[2] = "Miles driven:";
-array1[3] = "Miles per gallon:";
-array1[4] = "Vehicle type:";
+var myArray;
+myArray =  new Array();         //array variable
+myArray[0] = "Vehicle type" + " ";
+myArray[1] = "MPG," + " " + "and" + " ";
+myArray[2] = "Gallons used.";
 
-var array1 = array1 [0, 1, 2, 3, 4];  //super simplistic list array for console information and alert display
+alert("Types of data used in this program:" + " " + myArray);
 
-
-alert("Array outputs:" + " " + array1);
 
 
 //TODO: console logs //with descriptive sentences
@@ -89,18 +81,16 @@ alert("Array outputs:" + " " + array1);
 console.log(vehicleType);                   //string value for vehicle type
 console.log(V);                             //assign sting to V for shorter reference
 console.log(startingGallons);               //string input for starting gallons
-console.log(SG);                            //assign string to SG for numerical value
+console.log(sG);                            //assign string to SG for numerical value
 console.log(milesDriven);                   //string value for miles driven
-console.log(MD);                            //assign string to MD for numerical value
+console.log(mD);                            //assign string to MD for numerical value
 console.log(fillUp);                        //string variable for initial fill up.
-console.log(FU);                            //assign fillUp to FU for numerical value
+console.log(fU);                            //assign fillUp to FU for numerical value
 console.log(isThereGasLeftOver);            //assign boolean value true to variable is ThereGasLeftOver
-console.log(G);                             //Gallons used variable
-console.log(MPG);                           //MPG variable for miles per gallon calculation
-console.log(array);                         //array for console list purposes
-console.log("End outputs, or display using alert" + " " +
-" vehicle type" + " + V +" + " " +
-"MPG" + " " + MPG);                         //output results put into console
+console.log(gU);                             //Gallons used variable
+console.log(mPG);                           //MPG variable for miles per gallon calculation
+console.log(myArray[0], myArray[1], myArray[2]);   //array for console list purposes
+
 
 //put in results in multi-lined comment /*
 //
