@@ -5,7 +5,8 @@
     Term:       I
  */
 
-/*  >, <, >=, <=
+/*      Comparisons
+>, <, >=, <=
 != not equal to
  = assignment
 == equal to comparing
@@ -66,7 +67,7 @@ if(kidHeight > minHeight) {
     console.log("You can graduate!")
 }else{
     console.log("GPA is too low!")
-}*/
+}
    // (gpa > 2.0) ? console.log("You can graduate!"):console.log("GPA too low!");
 var age = 11;
 var book;
@@ -75,3 +76,7 @@ var book;
 book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
 
 console.log("book");
+*/
+var age = prompt("Enter age:", "");
+var isOverSixty = parseInt(age) > 60;
+console.log("Older than 60: " + isOverSixty);
