@@ -5,9 +5,16 @@
     Term:       I
  */
 
+/*  >, <, >=, <=
+!= not equal to
+ = assignment
+== equal to comparing
 
-sunny = true;
-if(sunny){
+ */
+temp == 75;
+
+
+if(temp > 70){
     goToTheBeach();
 }else{goToTheMovies();
 }
