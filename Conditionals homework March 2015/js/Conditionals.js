@@ -77,6 +77,25 @@ book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
 
 console.log("book");
 */
-var age = prompt("Enter age:", "");
+/*var age = prompt("Enter age:", "");
 var isOverSixty = parseInt(age) > 60;
 console.log("Older than 60: " + isOverSixty);
+*/
+
+switch (secretNumber)
+        case 1:
+        case 2:
+        case 3:
+        console.log("You guessed the secret number!");
+        case 4:
+        case 5:
+        console.log("Too high!");
+        break;
+    default:
+        console.log("You did not enter a number between 1 and 5.");
+
+        var loopCounter;
+        for (loopCounter =1; loopCounter <= 3; loopCounter++)
+        {
+            //execute this code
+        }
