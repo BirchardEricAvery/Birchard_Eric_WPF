@@ -11,10 +11,13 @@
 == equal to comparing
 
  */
-temp == 75;
 
-
-if(temp > 70){
+if(sunny){
     goToTheBeach();
-}else{goToTheMovies();
+
+    if (warmWater) {
+        wearNewSuit();
+    }
+}else{
+    goToTheMovies();
 }
