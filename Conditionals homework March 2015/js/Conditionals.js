@@ -11,13 +11,12 @@
 == equal to comparing
 
  */
+var oldEnough = false;
 
-if(sunny){
-    goToTheBeach();
+//if the child is old enough, print to the console "you can ride!"
 
-    if (warmWater) {
-        wearNewSuit();
-    }
-}else{
-    goToTheMovies();
+if(oldEnough) {
+    //code performed if condition is true
+    console.log("You can ride the coaster!");
 }
+console.log("what comes after")
