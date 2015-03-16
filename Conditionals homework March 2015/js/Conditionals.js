@@ -10,12 +10,21 @@
  = assignment
 == equal to comparing
 // if, else two blocks of code...else if multiple blocks
-Equality Operators
+
+    Equality Operators/ pairs
 ==  Equality 6 "6"          True
 === Strict Equality 6 "6"   False
 !=  Inequality a != b       True
+Logical Operators
+
+    Compare pairs (boolean)/ relational
+&&  And             between expressions, boolean, not just a variable
+        a === b && b === c
+||  Or (double pipe)
+^   Exclusive Or (XOR)  one or the other, not both
+!   Not
  */
-var kidHeight = 42;
+/*var kidHeight = 42;
 var minHeight = 48;
 var wParentHeight = 45; //the height of the kid with parent
 
@@ -32,4 +41,15 @@ if(kidHeight > minHeight) {
     //sorry you have growing to do
     console.log("Sorry kid you've got some growing to do first!");
 
+}*/
+
+var budget = 300;
+var iPhonePrice = 199.99;
+var wonLottery = true;
+
+//if the price of the phone is less our budget AND if our paycheck is over 300
+if(iPhonePrice < budget || wonLottery === true){
+    console.log("We can buy the phone!");
+}else{
+    console.log("No phone for you!!");
 }
