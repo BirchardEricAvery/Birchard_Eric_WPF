@@ -10,6 +10,10 @@
  = assignment
 == equal to comparing
 // if, else two blocks of code...else if multiple blocks
+Equality Operators
+==  Equality 6 "6"          True
+=== Strict Equality 6 "6"   False
+!=  Inequality a != b       True
  */
 var kidHeight = 42;
 var minHeight = 48;
