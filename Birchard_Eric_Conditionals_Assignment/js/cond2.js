@@ -9,17 +9,21 @@ Class:      SDI
 Term:       I
  */
 
-// idea?
+// idea? ETA with, fuel per day mpg per day, dates
 
 //2 different arithmetic operators + - * /
 
-//2 conditional statements - with an else if or more
+//2 conditional statements - with an else if or more look up NaN
+//diamond if number true, not true = ! true
 
-//1 ternary conditional statement
+//1 ternary conditional statement ?;
+//var elvisLives = Math.PI > 4 ? "Yep" : "Nope";
 
 //1 logical operator && || !
 
 //3 prompts with validation
+//Number(mpg)  •	parseInt(x)
+
 //validation college blank, prompt saying you forgot something, collect that info and put into a variable
 
 
@@ -115,24 +119,5 @@ Term:       I
  console.log("Older than 60: " + isOverSixty);
 
 
-switch (secretNumber)
-    case 1:
-    case 2:
-    case 3:
-        console.log("You guessed the secret number!");
-    case 4:
-    case 5:
-        console.log("Too high!");
-        break;
-    default:
-        console.log("You did not enter a number between 1 and 5.");
-
-        var loopCounter;
-        for (loopCounter =1; loopCounter <= 3; loopCounter++)
-        {
-            //execute this code
-        }
-
-*/
 
 //alert("test");
