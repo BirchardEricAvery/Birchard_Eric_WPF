@@ -140,9 +140,9 @@ s  =! false || true ? console.log("s, or number of stops input correct data type
 
 as  =! false || true ? console.log("as, or average speed input correct data type") : console.log("False input  received.  Data incomplete")
 
-Alert("Driving" + " " + milesPerDay + " " + "miles per day" + " " + "it will take" + " " + hoursDrivingPerDay +
- " " + "hours per day using" + " " + gallonsPerDay + "gallons of fuel costing" + " $" + costPerDay +
-"to reach your destination.");
+alert("Driving" + " " + milesPerDay + " " + "miles per day" + " " + "it will take" + " " + hoursDrivingPerDay +
+ " " + "hours per day using" + " " + gallonsPerDay + " " + "gallons of fuel costing" + " $" + costPerDay +
+" " + "a day to reach your destination.");
 
 /*
 Values input were 20mpg, 1000 miles, $2 per gallon, 4 stops, at 50mph.
