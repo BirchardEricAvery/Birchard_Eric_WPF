@@ -1,15 +1,34 @@
-/**
- * Created by avery on 3/18/15.
- */
 /*
-Name:       Eric (Avery) Birchard
-Assignment: Conditionals 2
-Date:       18, March 2015
-Class:      SDI
-Term:       I
- */
 
-// idea? ETA with, fuel per day mpg per day, dates
+ Name:       Eric (Avery) Birchard
+ Assignment: Conditionals 2
+ Date:       18, March 2015
+ Class:      SDI
+ Term:       I
+
+ */
+alert("test")
+
+
+var mPG
+/* var totalMiles
+ var costPerGallon
+ var stopS
+ var gallonsPerDay
+ var costPerDay
+ var milesPerDay
+ var avgSpeed
+ */
+mPG = prompt("What is your vehicles MPG");  //prompt user for miles per gallon of their vehicle
+parseInt(mPG);                              //convert string to integer
+console.log("Users input for variable mPG" + mPG); //console log for MPG input
+alert("test mPG" + mPG); //tester
+
+
+
+
+
+
 
 //2 different arithmetic operators + - * /
 
@@ -120,4 +139,3 @@ Term:       I
 
 
 
-//alert("test");

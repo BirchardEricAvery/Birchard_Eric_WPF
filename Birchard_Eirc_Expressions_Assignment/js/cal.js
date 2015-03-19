@@ -10,6 +10,8 @@
 
 //Fuel mileage calculator and gas left in tank
 
+    alert("jjjj");
+
 var vehicleType;          //string variable
 var mPG;                  //numerical variable for miles per gallon
 var isThereGasLeftOver;   //declaration of Boolean variable
