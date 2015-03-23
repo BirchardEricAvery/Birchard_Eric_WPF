@@ -34,7 +34,7 @@ var age1 = 4;
     dogYears(age1); //4 year old dog, Call, passing in 4 or age1    Argument
     dogYears(5); //5 year old dog, passing in 5 or age2             Argument
     */
-
+/*
 var total = calcArea(30, 20);
 
 function calcArea(w, h) {
@@ -42,7 +42,7 @@ function calcArea(w, h) {
     return area;                //function spitting the info out
 }
 console.log(total);
-
+*/
 /*
 //this is a function
 function calcAreaF(width, height){
@@ -55,3 +55,19 @@ function calcAreaP(width, height){
 var area = width * height;
 console.log(area);                  //no return
  */
+
+//Anonymous function basic used for brevity
+
+//var functionName = function(){
+    //code to run
+
+//}
+
+var calcArea =function(width, height){ //defining
+    //code the function runs
+    var area = width * height;
+    return area;
+}
+var a = calcArea(20, 30); //invoking happen after
+
+console.log(a);
