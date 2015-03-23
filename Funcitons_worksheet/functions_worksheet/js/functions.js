@@ -35,31 +35,28 @@ function calcC(t, p, r){            //making function calcC to calculation the a
 
 console.log("The circumference of the Circle is" + " " + x);   //logging x or area of a circle to console
 
+//It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
+//Begin bee sting function kill
 
 
+//Victim's weight (in pounds)
+var stingKill = 8.666666667;                                        //amount of bee stings to kill
+var weight = prompt("What is the victims weight?");                //user input of victims weight into variable weight
+parseInt(weight);                                                 //making weight variable a number
+
+//Return number of bee stings
 
 
-//Result to print to console, the circumference of the circle is X":"
- //this is a function
- //function calcAreaF(width, height){
- //var area = width * height;
- //return area;
- //}
+var x = calcK(stingKill, weight);               //putting function calcK into x
+
+function calcK(stingKill, weight){              //making function calcK to function variables
+    var kill = stingKill * weight;              //putting variables, or calculations into kill variable
+    return kill;                                //returning, or spitting out kill variable
+};
 
 
-/*
-//Anonymous function basic used for brevity
+//Result to print to the console
 
-//var functionName = function(){
-//code to run
-}
+console.log("Number of stings required to kill an animal weighing" + " " + weight + " " +   //weight of animal
+ "is" + " " + x);                                                                           //number of required stings to kill
 
-var calcArea =function(width, height){ //defining
-    //code the function runs
-    var area = width * height;
-    return area;
-}
-var a = calcArea(20, 30); //invoking happen after
-
-console.log(a);
-*/
