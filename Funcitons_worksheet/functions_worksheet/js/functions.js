@@ -1,67 +1,36 @@
-/*      Name:       Eric Avery Birchard
- Assignment: Functions homework
- Date:       21 - , March 2015
- Class:      SDI
- Term:       I
+/*  Name:       Eric Avery Birchard
+    Assignment: Functions worksheet homework
+    Date:       21 - , March 2015
+    Class:      SDI
+    Term:       I
  */
-/*var width = 5;
+//Calculate the Area of a Rectangle
+
+var answer = calcArea(5, 6);    //putting function calcArea into answer
+
+ function calcArea(w, h) {      //making function calcArea using w & h variables
+ var area = w * h;              //putting w & h into area
+
+ return area;                   //function returning, or spitting out information via variable area
+
+ };
+
+ console.log("The Area of the Rectangle is:" + " " + answer); //reporting answer via console log
 
 
-
-
- }
- console.log(width);
- // calcArea(); invocation of our function, function call
-
- */
-
-//Functions - Parameters and Arguments
-
-//arguments --
-//parameters --
-
-
-// calcArea(30, 20);           // arguments stored arguments
-/*
- function dogYears(age) {        //parameters are the bins, holds
-
-
-
- var dogYears = age * 7;     //Arguments, solution
- console.log("Sparky is " + dogYears + " " + "years old.");
- }
- var age1 = 4;
- dogYears(age1); //4 year old dog, Call, passing in 4 or age1    Argument
- dogYears(5); //5 year old dog, passing in 5 or age2             Argument
- */
-/*
- var total = calcArea(30, 20);
-
- function calcArea(w, h) {
- var area = w * h;
- return area;                //function spitting the info out
- }
- console.log(total);
- */
-/*
  //this is a function
- function calcAreaF(width, height){
- var area = width * height;
- return area;
- }
+ //function calcAreaF(width, height){
+ //var area = width * height;
+ //return area;
+ //}
 
- //this is a procedure
- function calcAreaP(width, height){
- var area = width * height;
- console.log(area);                  //no return
- */
 
+/*
 //Anonymous function basic used for brevity
 
 //var functionName = function(){
 //code to run
-
-//}
+}
 
 var calcArea =function(width, height){ //defining
     //code the function runs
@@ -71,3 +40,4 @@ var calcArea =function(width, height){ //defining
 var a = calcArea(20, 30); //invoking happen after
 
 console.log(a);
+*/
