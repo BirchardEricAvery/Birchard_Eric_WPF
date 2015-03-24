@@ -18,7 +18,7 @@ while (b > 0){          //checks the condition
     */
 
 //Do while loop
-
+/*
 var c = 10;
 
 do{
@@ -27,4 +27,12 @@ do{
 }
 
 while(c>0);
+
+*/
+
+//For loop, or short hand of all the loops
+
+for (var i = 10; i > 0; i--){
+    console.log(i + 'kegs on the wall')
+}
 
