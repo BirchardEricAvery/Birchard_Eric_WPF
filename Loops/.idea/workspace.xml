@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1349880-d0c4-4211-930a-231865c5e614" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/loop.js" afterPath="$PROJECT_DIR$/js/loop.js" />
-    </list>
+    <list default="true" id="f1349880-d0c4-4211-930a-231865c5e614" name="Default" comment="" />
     <ignored path="Loops.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
