@@ -7,14 +7,14 @@
  Term:       I
 */
 
-var mPG
-var totalMiles
-var costPerGallon
-var stopS
-var avgSpeed
-var gallonsPerDay
-var costPerDay
-var milesPerDay
+var mPG;
+var totalMiles;
+var costPerGallon;
+var stopS;
+var avgSpeed;
+var gallonsPerDay;
+var costPerDay;
+var milesPerDay;
 
 
 //mPG variable input and making converting string to a number
@@ -130,15 +130,15 @@ alert("gallons per day" + " " + gallonsPerDay);
 costPerDay = gallonsPerDay * cost;
 alert("cost per day" + " " + "$" + costPerDay);
 
-mpg  =! false || true ? console.log("mpg, or miles per gallon input correct data type") : console.log("False input  received.  Data incomplete")
+mpg  =! (true) || true ? console.log("mpg, or miles per gallon input correct data type") : console.log("False input  received.  Data incomplete")
 
-tm  =! false || true ? console.log("tm, or total miles input correct data type") : console.log("False input  received.  Data incomplete")
+tm  =! (false) || true ? console.log("tm, or total miles input correct data type") : console.log("False input  received.  Data incomplete")
 
-cost  =! false || true ? console.log("cost or approximate cost per gallon input correct data type") : console.log("False input  received.  Data incomplete")
+cost  =! (false) || true ? console.log("cost or approximate cost per gallon input correct data type") : console.log("False input  received.  Data incomplete")
 
-s  =! false || true ? console.log("s, or number of stops input correct data type") : console.log("False input  received.  Data incomplete")
+s  =! (false) || true ? console.log("s, or number of stops input correct data type") : console.log("False input  received.  Data incomplete")
 
-as  =! false || true ? console.log("as, or average speed input correct data type") : console.log("False input  received.  Data incomplete")
+as  =! (false) || true ? console.log("as, or average speed input correct data type") : console.log("False input  received.  Data incomplete")
 
 alert("Driving" + " " + milesPerDay + " " + "miles per day" + " " + "it will take" + " " + hoursDrivingPerDay +
  " " + "hours per day using" + " " + gallonsPerDay + " " + "gallons of fuel costing" + " $" + costPerDay +
